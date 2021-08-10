@@ -9,7 +9,7 @@ On Kaggle you can find the UFO Sightings [dataset](https://www.kaggle.com/NUFORC
 
 The map below shows a subset of the data, within the bounding box (36.4,12.2,61.4,33.5), corresponding roughly to the Arabian peninsula.  
 
-<iframe src="https://djwrisley.github.io/Arabia_UFO/index.html" width="100%" height="400"></iframe>
+<iframe src="https://djwrisley.github.com/Arabia_UFO/index.html#5/25.701/47.681" width="100%" height="400"></iframe>
 
 
 How to explore this map: This map ...
