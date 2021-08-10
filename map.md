@@ -1,12 +1,24 @@
 ---
 layout: page
-title: A map I made at ESU 2021
+title: The UFO map of ESU 2021
 menutitle: Map
 menuorder: 5
 ---
 
-You can view my map at UMap [here](https://umap.openstreetmap.de/en/map/rijksmuseum-19th-c-photo-album_16170#12/36.8362/10.3069).
+On Kaggle you can find the UFO Sightings [dataset](https://www.kaggle.com/NUFORC/ufo-sightings) of reports of some 80000 Unidentified flying object reports in the last century collected by @NUFORC.
 
-Or insert an iframe
+The map below shows a subset of the data, within the bounding box (36.4,12.2,61.4,33.5), corresponding roughly to the Arabian peninsula.  
 
-<iframe width="100%" height="500px" frameborder="0" allowfullscreen src="//umap.openstreetmap.de/en/map/rijksmuseum-19th-c-photo-album_16170?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe><p><a href="//umap.openstreetmap.de/en/map/rijksmuseum-19th-c-photo-album_16170">See full screen</a></p>
+<iframe src="https://djwrisley.github.io/ESUDH/Arabia_UFO/index.html" width="100%" height="400"></iframe>
+
+How to explore this map: This map ...
+
+Context: This map's dataset ...
+
+Algorithmic manipulation: The QGIS 3.0 plugin MMQGIS was used to prevent occultation.
+
+Notes on data decisions: 
+
+License: Creative Commons 4.0 BY-NC-SA International Creative Commons License
+
+Suggested Citation: Humanities Data and Map Environments (2021). UFO Sightings on the Arabian Peninsula. Accessed xxxx.yy.zz.
