@@ -5,7 +5,7 @@ menutitle: Map
 menuorder: 5
 ---
 
-On Kaggle you can find the UFO Sightings [dataset](https://www.kaggle.com/NUFORC/ufo-sightings) of reports of some 80000 Unidentified flying object reports in the last century collected by @NUFORC.
+On Kaggle you can find the UFO Sightings [dataset](https://www.kaggle.com/NUFORC/ufo-sightings) of reports of some 80000 Unidentified flying object reports in the last century collected by the National UFO Reporting Center @NUFORC.
 
 The map below shows a subset of the data, within the bounding box (36.4,12.2,61.4,33.5), corresponding roughly to the Arabian peninsula.  
 
