@@ -69,7 +69,8 @@
                         <td>' + (feature.properties['gender'] !== null ? autolinker.link(feature.properties['gender'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['name_artpiece'] !== null ? autolinker.link(feature.properties['name_artpiece'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">name_artpiece</th>\
+                        <td>' + (feature.properties['name_artpiece'] !== null ? autolinker.link(feature.properties['name_artpiece'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <td colspan="2">' + (feature.properties['Medium'] !== null ? autolinker.link(feature.properties['Medium'].toLocaleString()) : '') + '</td>\
