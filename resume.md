@@ -7,20 +7,18 @@ menutitle: Resume
 
 Current Position Description
 
+At the present time I am employed in a very large university. 
+
 ## Education
 
-`1990 - 1994`
-__University Name__
-Degree Awarded
-
-`1995 - 1997`
-__University Name__
-Degree Awarded 
+`1950-1957`
+__Mars University__
+BA - no further education
 
 ## Awards
 
-`2012`
-Name of Award, Organization 
+`2022`
+Most Likely to Believe in UFOs award, Mars Academy of Sciences 
 
 ## Publications
 
