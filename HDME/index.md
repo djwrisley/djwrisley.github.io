@@ -128,11 +128,10 @@ Critical review of spatial humanities projects and data creation fundamentals
 * Finding and accessing spatial data relevant to humanities research
 * Understanding different data formats and sources
 
-<<<<<<< Updated upstream
 ### 5a. Semantic annotation with [Recogito](https://recogito.pelagios.org/) and visualizing spatial data with [Kepler](https://kepler.gl/)
-=======
+
 #### Pre-reading
-* 
+* [Simon, Rainer, Elton Barker, Leif Isaksen et Pau de Soto Cañamares. 2015. «Linking Early Geospatial Documents, One Place at a Time : Annotation of Geographic Documents with Recogito ». e-Perimetron 10 (2): 49–59.](https://www.e-perimetron.org/Vol_10_2/Simon_et_al.pdf)
 * 
 
 #### Slides
