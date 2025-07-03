@@ -1,0 +1,24 @@
+theme: jekyll-theme-minimal
+title: "HDME - Spatial Humanities Workshop"
+description: "European Summer University in Digital Humanities, Besançon 2025"
+logo: /assets/images/LogoESU2025.jpg
+show_downloads: false
+
+author:
+  name: "ESU 2025"
+  email: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# GitHub Pages settings
+plugins:
+  - jekyll-default-layout
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+
+# Theme settings
+google_analytics: # Add your tracking ID if needed
