@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Spatial Humanities Workshop"
+title: "HDME ESUDH 2025"
 ---
 
 # Humanities Data and Mapping Environments
@@ -45,7 +45,7 @@ Please ensure you have the following prior to the workshop:
 
 ### Recommended Background Reading
 
-A Zotero library of supplementary readings will be provided by the instructors. While no prior experience with GIS or mapping is required, participants are encouraged to explore existing spatial humanities projects to understand the field's scope and possibilities.
+ While no prior experience with GIS or mapping is required, participants are encouraged to explore existing spatial humanities projects to understand the field's scope and possibilities. For each module below, we will provide some pre-reading and some follow up materials. A Zotero library of supplementary readings is available [here](https://www.zotero.org/groups/2352275/hdme_esu).
 
 ## Workshop Agenda
 
@@ -183,6 +183,4 @@ Static site development, advanced visualization, and storytelling with spatial d
 * Final project presentations and strategies for data sharing and dissemination
 * Workshop wrap-up and next steps
 
-#### Additional Resources
 
-A Zotero library of supplementary readings will be provided by the instructors throughout the workshop.
