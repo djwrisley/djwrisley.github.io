@@ -2,7 +2,9 @@
 layout: default
 ---
 
-## Workshop Overview
+## Humanities Data and Mapping Environments
+### European Summer University in Digital Humanities "Technology and Culture" 
+### Université Marie et Louis Pasteur, Besançon, France ### 21.7-2.8.2025
 
 This spatial humanities workshop will introduce participants to different ways of thinking about humanities data, their curation within projects, and their use in digital mapping environments. The workshop will not be a traditional course in Geographic Information Systems (GIS), although we will use open source GIS and web mapping along the way.
 
