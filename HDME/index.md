@@ -139,7 +139,7 @@ Critical review of spatial humanities projects and data creation fundamentals
 * 
 
 #### Exercises
-* 
+* [Recogito Overview](recogito.md)
 * 
 
 #### Additional References
