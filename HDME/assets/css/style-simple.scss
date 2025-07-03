@@ -1,22 +1,17 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+/* Import Slate theme */
+@import url("https://pages-themes.github.io/slate/assets/css/style.css");
 
-/* HDME Workshop Custom Styles - Cache Buster v3 */
-/* THIS SHOULD BE VISIBLE - DEBUG TEST */
-
+/* HDME Workshop Custom Styles */
 body {
   background: #FFF8E8 !important;
   color: #333333 !important;
-  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif !important;
-  border: 10px solid red !important; /* DEBUG - This should be very visible */
 }
 
 #main_content_wrap {
   background: #FFF8E8 !important;
-  border-top: 1px solid #111 !important;
-  border-bottom: 1px solid #111 !important;
 }
 
 #header_wrap {
@@ -25,9 +20,8 @@ body {
 }
 
 #header_wrap .inner {
-  text-align: center !important;
+  text-align: center;
   position: relative;
-  padding: 50px 10px 30px 10px !important;
 }
 
 /* Logo integration */
@@ -50,16 +44,13 @@ body {
   color: #FFF8E8 !important;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.7) !important;
   font-weight: 700 !important;
-  margin: 0 !important;
-  font-size: 42px !important;
+  margin-bottom: 10px !important;
 }
 
 #project_tagline {
   color: #FFF8E8 !important;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.5) !important;
-  font-size: 24px !important;
-  font-weight: 300 !important;
-  background: none !important;
+  opacity: 0.95;
 }
 
 /* Typography overrides */
@@ -67,76 +58,58 @@ h1 {
   color: #1E3D59 !important;
   border-bottom: 4px solid #FF7F50 !important;
   padding-bottom: 8px !important;
-  margin: 30px 0 20px 0 !important;
-  font-size: 36px !important;
-  font-weight: 700 !important;
+  margin-top: 30px !important;
+  margin-bottom: 20px !important;
 }
 
 h2 {
   color: #1E3D59 !important;
   border-bottom: 3px solid #FF7F50 !important;
   padding-bottom: 6px !important;
-  margin: 25px 0 15px 0 !important;
+  margin-top: 25px !important;
   background: none !important;
-  font-size: 32px !important;
 }
 
 h3 {
   color: #1E3D59 !important;
   border-bottom: 2px solid #FF7F50 !important;
   padding-bottom: 4px !important;
-  margin: 20px 0 10px 0 !important;
-  font-size: 24px !important;
+  margin-top: 20px !important;
 }
 
 h4 {
   color: #057676 !important;
   font-weight: 600 !important;
-  margin: 15px 0 10px 0 !important;
-  font-size: 21px !important;
+  margin-top: 15px !important;
 }
 
 /* Link styling */
 a {
   color: #057676 !important;
-  text-decoration: none !important;
   transition: all 0.3s ease !important;
 }
 
-a:hover, a:focus {
+a:hover {
   color: #FF7F50 !important;
-  text-decoration: underline !important;
+  text-decoration: none !important;
 }
 
 /* Session styling */
 h3[id*="a."], 
 h3[id*="b."], 
 h3[id*="Hands"] {
-  background: linear-gradient(90deg, rgba(228, 179, 99, 0.15), rgba(228, 179, 99, 0.05)) !important;
+  background: linear-gradient(90deg, rgba(228, 179, 99, 0.1), rgba(228, 179, 99, 0.05)) !important;
   padding: 15px 20px !important;
   border-radius: 8px !important;
   border-left: 6px solid #E4B363 !important;
-  border-bottom: 2px solid #FF7F50 !important;
   margin: 25px 0 20px 0 !important;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important;
 }
 
 /* List improvements */
-ul {
-  list-style: disc !important;
-  padding-left: 20px !important;
-  list-style-position: inside !important;
-}
-
 ul li {
-  margin-bottom: 8px !important;
-  line-height: 1.7 !important;
-}
-
-ol {
-  list-style: decimal !important;
-  padding-left: 20px !important;
-  list-style-position: inside !important;
+  margin-bottom: 8px;
+  line-height: 1.7;
 }
 
 #footer_wrap {
@@ -148,11 +121,6 @@ ol {
   display: none !important;
 }
 
-/* Main content styling */
-#main_content {
-  padding-top: 40px !important;
-}
-
 /* Responsive adjustments */
 @media screen and (max-width: 640px) {
   #header_wrap .inner::before {
@@ -161,7 +129,7 @@ ol {
   }
   
   #project_title {
-    font-size: 32px !important;
+    font-size: 28px !important;
   }
   
   h3[id*="a."], 
@@ -176,9 +144,5 @@ ol {
   #header_wrap .inner::before {
     width: 60px;
     height: 60px;
-  }
-  
-  #project_title {
-    font-size: 28px !important;
   }
 }
