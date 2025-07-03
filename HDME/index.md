@@ -79,7 +79,7 @@ Critical review of spatial humanities projects and data creation fundamentals
 * Finding and accessing spatial data relevant to humanities research
 * Understanding different data formats and sources
 
-### 5a. Wednesday: Gazetteers and Mobile Collection (Morning)
+### 5a. Semantic annotation with [Recogito](https://recogito.pelagios.org/) and visualizing spatial data with [Kepler](https://kepler.gl/)
 
 #### Overview
 * Using gazetteers and mobile tools for spatial data collection
