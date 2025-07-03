@@ -10,9 +10,9 @@ title: "HDME ESUDH 2025"
 ### Université Marie et Louis Pasteur, Besançon, France 
 ### 21.7-2.8.2025
 
-<div class="workshop-overview">
+## Workshop Overview
+
 This spatial humanities workshop will introduce participants to different ways of thinking about humanities data, their curation within projects, and their use in digital mapping environments. The workshop will not be a traditional course in Geographic Information Systems (GIS), although we will use open source GIS and web mapping along the way.
-</div>
 
 The workshop is designed for the total beginner who would like:
 
@@ -55,65 +55,65 @@ In the first part of the course we conduct a critical review of a range of spati
 
 Critical review of spatial humanities projects and data creation fundamentals
 
-### 1. Monday: Introduction to Spatial Humanities (Morning)
+### 1a. Monday: Introduction to Spatial Humanities (Morning)
 
 #### Overview
 * Overview of spatial thinking in humanities research and project examples across disciplines
 * Introduction to the field and its applications
 
-### 2. Monday: Critical Review of Projects (Afternoon)
+### 2a. Monday: Critical Review of Projects (Afternoon)
 
 #### Overview
 * Analyzing scope and rhetorical strategies in existing spatial humanities projects
 * Understanding different approaches to spatial storytelling
 
-### 3. Tuesday: Location-Based Research Methods (Morning)
+### 3a. Tuesday: Location-Based Research Methods (Morning)
 
 #### Overview
 * Incorporating spatial dimensions across disciplines: cinema, art history, anthropology, history, literature
 * Challenges and opportunities in spatial research
 
-### 4. Tuesday: Data Sources and Acquisition (Afternoon)
+### 4a. Tuesday: Data Sources and Acquisition (Afternoon)
 
 #### Overview
 * Finding and accessing spatial data relevant to humanities research
 * Understanding different data formats and sources
 
-### 5. Wednesday: Gazetteers and Mobile Collection (Morning)
+### 5a. Wednesday: Gazetteers and Mobile Collection (Morning)
 
 #### Overview
 * Using gazetteers and mobile tools for spatial data collection
 * Hands-on practice with data collection tools
 
-### 6. Wednesday: Data Creation Workflows (Afternoon)
+### 6a. Wednesday: Data Creation Workflows (Afternoon)
 
 #### Overview
 * Creating data formats for spatial humanities projects using off-the-shelf software
 * Best practices for data organization
 
-### 7. Thursday: Basic Querying Techniques (Morning)
+### 7a. Thursday: Basic Querying Techniques (Morning)
 
 #### Overview
 * Learning basic querying for repetitive tasks in spatial dataset building
 * Introduction to data manipulation
 
-### 8. Thursday: Data Normalization (Afternoon)
+### Hands on. Thursday: Practical Application (Afternoon)
+
+#### Overview
+* Hands-on application of learned techniques and tools
+* Individual and group practice sessions
+
+### 8a. Friday: Data Normalization (Morning)
 
 #### Overview
 * Introduction to normalization and data wrangling techniques
 * Preparing data for analysis
 
-### 9. Friday: Manual vs. Automated Analysis (Morning)
+### 9a. Friday: Manual vs. Automated Analysis (Afternoon)
 
 #### Overview
 * Contrasting manual data creation with automated forms of analysis
 * Understanding when to use different approaches
-
-### 10. Friday: Besançon Data Collection (Afternoon)
-
-#### Overview
-* Hands-on data gathering from Besançon and local cultural institutions
-* Practical application of learned techniques
 
 ---
 
@@ -123,63 +123,64 @@ In the second part of the course, we will learn some skills in static site devel
 
 Static site development, advanced visualization, and storytelling with spatial data
 
-### 11. Monday: Static Site Development (Morning)
+### 1b. Monday: Static Site Development (Morning)
 
 #### Overview
 * Learning basic skills for hosting web maps on static sites
 * Introduction to web-based mapping platforms
 
-### 12. Monday: Automated Workflows (Afternoon)
+### 2b. Monday: Automated Workflows (Afternoon)
 
 #### Overview
 * Experimenting with automated workflows for spatial data processing
 * Efficiency techniques for large datasets
 
-### 13. Tuesday: Advanced Visualization (Morning)
+### 3b. Tuesday: Advanced Visualization (Morning)
 
 #### Overview
 * Complex forms of visualization and spatial storytelling techniques
 * Creating compelling narratives with spatial data
 
-### 14. Tuesday: Open-Source GIS Introduction (Afternoon)
+### 4b. Tuesday: Open-Source GIS Introduction (Afternoon)
 
 #### Overview
 * Introduction to open-source GIS software and basic operations
 * Hands-on practice with GIS tools
 
-### 15. Wednesday: Georeferencing and Warping (Morning)
+### 5b. Wednesday: Georeferencing and Warping (Morning)
 
 #### Overview
 * Learning georeferencing and warping techniques for historical maps
 * Working with historical spatial data
 
-### 16. Wednesday: Historical Vector Data (Afternoon)
+### 6b. Wednesday: Historical Vector Data (Afternoon)
 
 #### Overview
 * Creating historical vector and polygon data from digitized historical maps
 * Advanced mapping techniques
 
-### 17. Thursday: Specialized Tools and Gazetteers (Morning)
+### 7b. Thursday: Specialized Tools and Gazetteers (Morning)
 
 #### Overview
 * Exploring discipline-specific gazetteers and mapping packages in R
 * Advanced tools for specific research needs
 
-### 18. Thursday: OpenStreetMap and Wikidata (Afternoon)
+### Hands on. Thursday: Advanced Practical Application (Afternoon)
+
+#### Overview
+* Hands-on application of advanced mapping and visualization techniques
+* Project development and troubleshooting
+
+### 8b. Friday: OpenStreetMap and Wikidata (Morning)
 
 #### Overview
 * Working with OpenStreetMap, Wikidata, and IIIF for spatial humanities
 * Leveraging open data sources
 
-### 19. Friday: Machine Learning Applications (Morning)
+### 9b. Friday: Machine Learning Applications and Project Presentation (Afternoon)
 
 #### Overview
 * Machine classification of features in historical maps and AI applications
-* Introduction to AI in spatial humanities
-
-### 20. Friday: Project Presentation and Dissemination (Afternoon)
-
-#### Overview
 * Final project presentations and strategies for data sharing and dissemination
 * Workshop wrap-up and next steps
 
