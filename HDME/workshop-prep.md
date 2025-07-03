@@ -17,21 +17,21 @@ As we will be doing some data collection in the city, it will also be beneficial
 
 ### Free accounts to make
 
-Google (for access to drive) 
-[Posit.cloud](https://posit.cloud/plans)
-[OSM](https://www.openstreetmap.org/user/new) 
-[WikiData](https://www.wikidata.org/w/index.php?title=Special:CreateAccount) 
-[GitHub](https://github.com/signup) - If you already have a GitHub account, there is no need to make another one.  We will be creating a static site in order to host some web maps.
-[Recogito](https://recogito.pelagios.org/)
-[Zotero](https://www.zotero.org/user/register) - optional 
-[openai.com](https://openai.com/) – optional
+- Google (for access to drive) 
+- [Posit.cloud](https://posit.cloud/plans)
+- [OSM](https://www.openstreetmap.org/user/new) 
+- [WikiData](https://www.wikidata.org/w/index.php?title=Special:CreateAccount) 
+- [GitHub](https://github.com/signup) - If you already have a GitHub account, there is no need to make another one.  We will be creating a static site in order to host some web maps.
+- [Recogito](https://recogito.pelagios.org/)
+- [Zotero](https://www.zotero.org/user/register) - optional 
+- [openai.com](https://openai.com/) – optional
 
 ### Downloads
 
-[Github Desktop](https://desktop.github.com/) 
-[Sublime Text](https://www.sublimetext.com/) - If you already use another text editor such as Visual Studio Code, you do not need Sublime. The examples we will use in the workshop will be done in Sublime.
-[QGIS](https://qgis.org/download/) - Don't download the regular version, but instead the Long Term Version 3.40.8 'Bratislava.' Mac users will need to heed the "tips for first launch." 
-[Tropy](https://tropy.org/)
+- [Github Desktop](https://desktop.github.com/) 
+- [Sublime Text](https://www.sublimetext.com/) - If you already use another text editor such as Visual Studio Code, you do not need Sublime. The examples we will use in the workshop will be done in Sublime.
+- [QGIS](https://qgis.org/download/) - Don't download the regular version, but instead the Long Term Version 3.40.8 'Bratislava.' Mac users will need to heed the "tips for first launch." 
+- [Tropy](https://tropy.org/)
 
  
 NB: When making the accounts above, choose the free plans below and feel free to make a burner email account for these if you prefer for privacy reasons. 
