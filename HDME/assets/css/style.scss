@@ -1,83 +1,199 @@
 ---
 ---
 
-/* Custom styling for HDME workshop site using minimal theme */
+@import "{{ site.theme }}";
 
-/* Enhanced logo styling */
-header img {
-  max-width: 200px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  margin-bottom: 20px;
+// Color Palette for HDME Workshop
+$teal: #057676;
+$coral: #FF7F50;
+$mustard: #E4B363;
+$navy: #1E3D59;
+$sage: #8DAA9D;
+$cream: #FFF8E8;
+$dark-gray: #333333;
+
+// Base Styling Updates
+body {
+  background-color: $cream;
+  color: $dark-gray;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-/* Enhanced header spacing */
-header p {
-  margin-bottom: 15px;
+#header_wrap {
+  background: linear-gradient(to right, $navy, $teal);
+  .inner {
+    padding: 40px 10px 30px 10px;
+  }
 }
 
-header .view {
-  margin-top: 20px;
+// Logo styling in header
+#header_wrap .inner {
+  position: relative;
+  text-align: center;
+  
+  &:before {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 120px;
+    background-image: url('/assets/LogoESU2025.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
 }
 
-/* Typography enhancements */
-h1, h2, h3, h4, h5, h6 {
-  color: #2c3e50;
+#project_title {
+  position: relative;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  font-weight: 700;
+  font-size: 2.5em;
+  color: $cream;
+  padding: 0.5em 0;
+  
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transform: translateX(-100%);
+    animation: shimmer 5s infinite;
+  }
 }
 
-h2 {
-  border-bottom: 2px solid #eaecef;
-  padding-bottom: 8px;
-  margin-top: 2em;
-  margin-bottom: 1em;
+#project_tagline {
+  color: $cream;
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 10px;
 }
 
-h3 {
-  color: #0366d6;
+// Section Styling
+#main_content {
+  position: relative;
+  
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" stroke="%23057676" stroke-width="1" fill="none" /><circle cx="50" cy="50" r="30" stroke="%23FF7F50" stroke-width="1" fill="none" /><circle cx="50" cy="50" r="20" stroke="%23E4B363" stroke-width="1" fill="none" /><path d="M25,50 L75,50" stroke="%231E3D59" stroke-width="1" /><path d="M50,25 L50,75" stroke="%231E3D59" stroke-width="1" /></svg>');
+    background-repeat: no-repeat;
+    background-position: top right;
+    opacity: 0.2;
+    pointer-events: none;
+    z-index: -1;
+  }
+}
+
+h1 {
+  color: $navy;
+  border-bottom: 3px solid $coral;
+  padding-bottom: 0.3em;
   margin-top: 1.5em;
 }
 
-h4 {
-  color: #586069;
+h2, h3 {
+  color: $navy;
+  border-bottom: 2px solid $coral;
+  padding-bottom: 0.3em;
+  margin-top: 1.5em;
+}
+
+h3 {
+  border-bottom: 1px solid $coral;
   margin-top: 1.2em;
-  font-size: 1.1em;
 }
 
-/* List improvements */
-ul, ol {
-  margin-bottom: 1.5em;
-}
-
-li {
-  margin-bottom: 8px;
-  line-height: 1.6;
-}
-
-/* Strong text highlighting */
-strong {
-  color: #0366d6;
+h4 {
+  color: $teal;
+  margin-top: 1em;
   font-weight: 600;
 }
 
-/* Workshop sections styling */
-.workshop-overview {
-  background: #f8f9fa;
-  padding: 20px;
-  border-radius: 8px;
-  border-left: 4px solid #0366d6;
-  margin: 20px 0;
+a {
+  color: $teal;
+  transition: color 0.3s ease;
+  
+  &:hover {
+    color: $coral;
+    text-decoration: none;
+  }
 }
 
+ul li {
+  margin-bottom: 0.5em;
+  line-height: 1.6;
+}
+
+// Workshop-specific styling
+.workshop-title {
+  text-align: center;
+  color: $navy;
+  margin-bottom: 1.5em;
+}
+
+.workshop-day {
+  background-color: rgba($teal, 0.05);
+  border-left: 4px solid $teal;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 0 4px 4px 0;
+}
+
+// Week sections
 .week-section {
   margin-top: 2em;
   padding-top: 1em;
-  border-top: 1px solid #eaecef;
+  border-top: 2px solid $sage;
 }
 
-/* Responsive improvements */
-@media (max-width: 720px) {
-  header img {
-    max-width: 150px;
+// Session styling
+h3[id*="a."], h3[id*="b."], h3[id*="Hands"] {
+  background-color: rgba($mustard, 0.1);
+  padding: 10px 15px;
+  border-radius: 5px;
+  border-left: 4px solid $mustard;
+  margin-top: 1.5em;
+}
+
+// Hide the "view on GitHub" button
+#forkme_banner {
+  display: none;
+}
+
+#footer_wrap {
+  background: linear-gradient(to left, $navy, $teal);
+}
+
+// Animations
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  20%, 100% {
+    transform: translateX(100%);
+  }
+}
+
+// Responsive adjustments
+@media screen and (max-width: 640px) {
+  #project_title {
+    font-size: 2em;
+  }
+  
+  #header_wrap .inner:before {
+    width: 80px;
+    height: 80px;
   }
   
   h1 {
@@ -89,13 +205,12 @@ strong {
   }
 }
 
-/* Print styles */
 @media print {
-  header {
+  #header_wrap {
     display: none;
   }
   
-  section {
+  #main_content {
     width: 100%;
     padding: 0;
   }

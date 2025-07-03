@@ -1,7 +1,7 @@
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: pages-themes/slate@v0.2.0
 title: "Humanities Data and Mapping Environments"
 description: "ESUDH 2025 Workshop with David Wrisley and Voica Pușcașiu"
-logo: /assets/images/LogoESU2025.jpg
+logo: /assets/LogoESU2025.jpg
 show_downloads: false
 
 author:
