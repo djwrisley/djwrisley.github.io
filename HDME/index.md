@@ -5,7 +5,7 @@ title: "HDME ESUDH 2025"
 
 # Humanities Data and Mapping Environments
 
-## Co-Instructors: David Joseph Wrisley (NYU Abu Dhabi) and Voica Pușcașiu (Babeș-Bolyai University) 
+## Co-Instructors: [David Joseph Wrisley](https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities/faculty/david-wrisley.html) (NYU Abu Dhabi) and [Voica Pușcașiu](https://hiphi.ubbcluj.ro/personal/voica_puscasiu.html) (Babeș-Bolyai University) 
 
 ### [European Summer University in Digital Humanities "Technology and Culture"](https://esudh.github.io/)
 ### Université Marie et Louis Pasteur, Besançon, France 
