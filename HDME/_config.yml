@@ -1,20 +1,14 @@
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
 title: HDME - Spatial Humanities Workshop
 description: European Summer University in Digital Humanities, Besançon 2025
 logo: assets/images/LogoESU2025.jpg
 show_downloads: false
 
 plugins:
-  - jekyll-default-layout
+  - jekyll-remote-theme
 
 markdown: kramdown
-highlighter: rouge
 
 # Site settings
 url: ""
 baseurl: ""
-
-# Custom variables
-subtitle: "Technology and Culture"
-location: "Université Marie et Louis Pasteur, Besançon, France"
-dates: "21.7-2.8.2025"

@@ -1,164 +1,48 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@import "minimal";
 
 /* Custom enhancements for the minimal theme */
-
-.logo {
-  max-width: 200px;
-  height: auto;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+header p.view {
+  margin-top: 20px;
 }
 
-header .subtitle {
-  font-size: 16px;
-  font-weight: 600;
-  color: #666;
-  margin: 10px 0 5px 0;
-}
-
-header .location {
-  font-size: 14px;
-  color: #888;
-  margin: 5px 0;
-  font-style: italic;
-}
-
-header .dates {
-  font-size: 14px;
-  color: #666;
-  font-weight: 500;
-  margin: 5px 0 15px 0;
-  padding: 5px 10px;
-  background: #f8f9fa;
-  border-radius: 5px;
-  border-left: 3px solid #007acc;
-}
-
-/* Enhanced typography for workshop content */
+/* Enhanced workshop content styling */
 section h2 {
-  color: #2c3e50;
-  border-bottom: 2px solid #e1e4e8;
+  border-bottom: 1px solid #e1e4e8;
   padding-bottom: 8px;
-  margin-top: 2em;
 }
 
 section h3 {
-  color: #34495e;
+  color: #0366d6;
   margin-top: 1.5em;
 }
 
 section h4 {
-  color: #5d6d7e;
+  color: #586069;
   margin-top: 1.2em;
 }
 
-/* Workshop-specific styling */
-.workshop-week {
-  background: #f8f9fa;
-  border: 1px solid #e9ecef;
-  border-radius: 8px;
-  padding: 20px;
-  margin: 20px 0;
-}
-
-.workshop-week h3 {
-  margin-top: 0;
-  color: #007acc;
-}
-
-.session-list {
-  list-style: none;
-  padding: 0;
-}
-
-.session-list li {
-  background: white;
-  border: 1px solid #dee2e6;
-  border-radius: 5px;
-  padding: 15px;
-  margin: 10px 0;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-
-.session-title {
-  font-weight: 600;
-  color: #2c3e50;
-  margin-bottom: 5px;
-}
-
-.session-time {
-  font-size: 12px;
-  color: #6c757d;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-/* Responsive enhancements */
-@media (max-width: 720px) {
-  .logo {
-    max-width: 150px;
-  }
-  
-  header .subtitle {
-    font-size: 14px;
-  }
-  
-  header .location,
-  header .dates {
-    font-size: 12px;
-  }
-}
-
-/* Enhanced list styling */
-section ul li,
+/* Goals list styling */
 section ol li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+section ul li {
   margin-bottom: 8px;
   line-height: 1.6;
 }
 
-/* Highlight boxes */
-.info-box {
-  background: #e8f4f8;
-  border-left: 4px solid #007acc;
-  padding: 15px;
-  margin: 20px 0;
-  border-radius: 0 5px 5px 0;
+/* Highlight important information */
+strong {
+  color: #0366d6;
 }
 
-.info-box strong {
-  color: #007acc;
-}
-
-/* Goals list styling */
-section ol {
-  counter-reset: goal-counter;
-  padding-left: 0;
-}
-
-section ol li {
-  counter-increment: goal-counter;
-  position: relative;
-  padding-left: 40px;
-  margin-bottom: 15px;
-}
-
-section ol li::before {
-  content: counter(goal-counter);
-  position: absolute;
-  left: 0;
-  top: 0;
-  background: #007acc;
-  color: white;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 12px;
-  font-weight: bold;
+/* Workshop week sections */
+h3 + p + h4 {
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid #eaecef;
 }
