@@ -4,7 +4,8 @@ layout: default
 
 ## Humanities Data and Mapping Environments
 ### European Summer University in Digital Humanities "Technology and Culture" 
-### Université Marie et Louis Pasteur, Besançon, France ### 21.7-2.8.2025
+### Université Marie et Louis Pasteur, Besançon, France 
+### 21.7-2.8.2025
 
 This spatial humanities workshop will introduce participants to different ways of thinking about humanities data, their curation within projects, and their use in digital mapping environments. The workshop will not be a traditional course in Geographic Information Systems (GIS), although we will use open source GIS and web mapping along the way.
 
@@ -42,6 +43,8 @@ Please ensure you have the following prior to the workshop:
 A Zotero library of supplementary readings will be provided by the instructors. While no prior experience with GIS or mapping is required, participants are encouraged to explore existing spatial humanities projects to understand the field's scope and possibilities.
 
 ## Workshop Agenda
+
+In the first part of the course we conduct a critical review of a range of spatial humanities projects: their scope and the rhetorical strategies they employ for spatial storytelling and argument. We will begin by reflecting on how location-based research might be incorporated into research projects in different disciplines (cinema, art history, anthropology, history, literature, etc.) as well as the challenges of incorporating a spatial dimension into research. We will learn about the creation of data in formats relevant to spatial humanities projects (using gazetteers, mobile data collection, off-the-shelf software) as well as some basic querying in order to perform repetitive tasks for building a spatial dataset. Students will be introduced to normalization and wrangling techniques and will contrast the manual, slow creation of data with more automated forms of analysis.
 
 ### Week 1: Foundations and Data Creation
 
@@ -110,6 +113,8 @@ Critical review of spatial humanities projects and data creation fundamentals
 ---
 
 ### Week 2: Visualization and Advanced Techniques
+
+In the second part of the course, we will learn some skills in static site development so that we can host our own basic web maps. We will experiment with other automated workflows and will turn to more complex forms of visualization and storytelling. Open-source GIS software will be used to learn about georeferencing / warping and the creation of historical vector / polygon data from digitized historical maps. Depending on the time available and participant interest, we may explore other topics of interest: discipline-specific gazetteers, mapping packages in R, OpenStreetMap, Wikidata, maps & IIIF, machine classification of features in historical or series maps, etc.
 
 Static site development, advanced visualization, and storytelling with spatial data
 
