@@ -6,7 +6,7 @@ title: "HDME ESUDH 2025"
 # Humanities Data and Mapping Environments
 {: .workshop-title}
 
-### European Summer University in Digital Humanities "Technology and Culture" 
+### [European Summer University in Digital Humanities "Technology and Culture"](https://esudh.github.io/)
 ### Université Marie et Louis Pasteur, Besançon, France 
 ### 21.7-2.8.2025
 
