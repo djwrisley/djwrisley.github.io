@@ -3,215 +3,201 @@
 
 @import "{{ site.theme }}";
 
-// Color Palette for HDME Workshop
-$teal: #057676;
-$coral: #FF7F50;
-$mustard: #E4B363;
-$navy: #1E3D59;
-$sage: #8DAA9D;
-$cream: #FFF8E8;
-$dark-gray: #333333;
+/* HDME Workshop Custom Styles */
 
-// Base Styling Updates
+/* Color Variables */
+:root {
+  --hdme-teal: #057676;
+  --hdme-coral: #FF7F50;
+  --hdme-mustard: #E4B363;
+  --hdme-navy: #1E3D59;
+  --hdme-sage: #8DAA9D;
+  --hdme-cream: #FFF8E8;
+  --hdme-dark-gray: #333333;
+}
+
+/* Override Slate theme background and colors */
 body {
-  background-color: $cream;
-  color: $dark-gray;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: var(--hdme-cream) !important;
+  color: var(--hdme-dark-gray) !important;
 }
 
+#main_content_wrap {
+  background: var(--hdme-cream) !important;
+}
+
+/* Header styling with gradient and logo */
 #header_wrap {
-  background: linear-gradient(to right, $navy, $teal);
-  .inner {
-    padding: 40px 10px 30px 10px;
-  }
+  background: linear-gradient(135deg, var(--hdme-navy) 0%, var(--hdme-teal) 100%) !important;
+  position: relative;
 }
 
-// Logo styling in header
 #header_wrap .inner {
-  position: relative;
   text-align: center;
-  
-  &:before {
-    content: "";
-    display: block;
-    width: 120px;
-    height: 120px;
-    background-image: url('/assets/LogoESU2025.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 0 auto 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-  }
+  position: relative;
+}
+
+/* Logo integration */
+#header_wrap .inner::before {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 20px auto;
+  background-image: url('/assets/LogoESU2025.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  border: 3px solid rgba(255,255,255,0.2);
 }
 
 #project_title {
-  position: relative;
-  text-align: center;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-  font-weight: 700;
-  font-size: 2.5em;
-  color: $cream;
-  padding: 0.5em 0;
-  
-  &:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-    transform: translateX(-100%);
-    animation: shimmer 5s infinite;
-  }
+  color: var(--hdme-cream) !important;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7) !important;
+  font-weight: 700 !important;
+  margin-bottom: 10px !important;
 }
 
 #project_tagline {
-  color: $cream;
-  font-size: 1.2em;
-  text-align: center;
-  margin-top: 10px;
+  color: var(--hdme-cream) !important;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5) !important;
+  opacity: 0.95;
 }
 
-// Section Styling
-#main_content {
-  position: relative;
-  
-  &:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 150px;
-    height: 150px;
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" stroke="%23057676" stroke-width="1" fill="none" /><circle cx="50" cy="50" r="30" stroke="%23FF7F50" stroke-width="1" fill="none" /><circle cx="50" cy="50" r="20" stroke="%23E4B363" stroke-width="1" fill="none" /><path d="M25,50 L75,50" stroke="%231E3D59" stroke-width="1" /><path d="M50,25 L50,75" stroke="%231E3D59" stroke-width="1" /></svg>');
-    background-repeat: no-repeat;
-    background-position: top right;
-    opacity: 0.2;
-    pointer-events: none;
-    z-index: -1;
-  }
-}
-
+/* Typography overrides */
 h1 {
-  color: $navy;
-  border-bottom: 3px solid $coral;
-  padding-bottom: 0.3em;
-  margin-top: 1.5em;
+  color: var(--hdme-navy) !important;
+  border-bottom: 4px solid var(--hdme-coral) !important;
+  padding-bottom: 8px !important;
+  margin-top: 30px !important;
+  margin-bottom: 20px !important;
 }
 
-h2, h3 {
-  color: $navy;
-  border-bottom: 2px solid $coral;
-  padding-bottom: 0.3em;
-  margin-top: 1.5em;
+h2 {
+  color: var(--hdme-navy) !important;
+  border-bottom: 3px solid var(--hdme-coral) !important;
+  padding-bottom: 6px !important;
+  margin-top: 25px !important;
+  background: none !important;
 }
 
 h3 {
-  border-bottom: 1px solid $coral;
-  margin-top: 1.2em;
+  color: var(--hdme-navy) !important;
+  border-bottom: 2px solid var(--hdme-coral) !important;
+  padding-bottom: 4px !important;
+  margin-top: 20px !important;
 }
 
 h4 {
-  color: $teal;
-  margin-top: 1em;
-  font-weight: 600;
+  color: var(--hdme-teal) !important;
+  font-weight: 600 !important;
+  margin-top: 15px !important;
 }
 
+/* Link styling */
 a {
-  color: $teal;
-  transition: color 0.3s ease;
-  
-  &:hover {
-    color: $coral;
-    text-decoration: none;
-  }
+  color: var(--hdme-teal) !important;
+  transition: all 0.3s ease !important;
 }
 
+a:hover {
+  color: var(--hdme-coral) !important;
+  text-decoration: none !important;
+}
+
+/* Session styling */
+h3[id*="a."], 
+h3[id*="b."], 
+h3[id*="Hands"] {
+  background: linear-gradient(90deg, rgba(228, 179, 99, 0.1), rgba(228, 179, 99, 0.05)) !important;
+  padding: 15px 20px !important;
+  border-radius: 8px !important;
+  border-left: 6px solid var(--hdme-mustard) !important;
+  margin: 25px 0 20px 0 !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important;
+}
+
+/* Week section dividers */
+h3:contains("Week") {
+  background: linear-gradient(90deg, var(--hdme-sage), transparent) !important;
+  padding: 20px !important;
+  color: white !important;
+  border: none !important;
+  margin: 40px 0 30px 0 !important;
+}
+
+/* Overview sections */
+h4:contains("Overview") + ul {
+  background: rgba(255, 248, 232, 0.7);
+  padding: 15px 20px;
+  border-radius: 6px;
+  border-left: 4px solid var(--hdme-sage);
+  margin: 10px 0 20px 0;
+}
+
+/* List improvements */
 ul li {
-  margin-bottom: 0.5em;
-  line-height: 1.6;
+  margin-bottom: 8px;
+  line-height: 1.7;
 }
 
-// Workshop-specific styling
+/* Special workshop title */
 .workshop-title {
   text-align: center;
-  color: $navy;
-  margin-bottom: 1.5em;
+  color: var(--hdme-navy) !important;
+  font-size: 2.2em !important;
+  margin: 30px 0 !important;
 }
 
-.workshop-day {
-  background-color: rgba($teal, 0.05);
-  border-left: 4px solid $teal;
-  padding: 15px;
-  margin: 20px 0;
-  border-radius: 0 4px 4px 0;
-}
-
-// Week sections
-.week-section {
-  margin-top: 2em;
-  padding-top: 1em;
-  border-top: 2px solid $sage;
-}
-
-// Session styling
-h3[id*="a."], h3[id*="b."], h3[id*="Hands"] {
-  background-color: rgba($mustard, 0.1);
-  padding: 10px 15px;
-  border-radius: 5px;
-  border-left: 4px solid $mustard;
-  margin-top: 1.5em;
-}
-
-// Hide the "view on GitHub" button
-#forkme_banner {
-  display: none;
-}
-
+/* Footer */
 #footer_wrap {
-  background: linear-gradient(to left, $navy, $teal);
+  background: linear-gradient(135deg, var(--hdme-navy) 0%, var(--hdme-teal) 100%) !important;
 }
 
-// Animations
-@keyframes shimmer {
-  0% {
-    transform: translateX(-100%);
-  }
-  20%, 100% {
-    transform: translateX(100%);
-  }
+/* Hide GitHub banner */
+#forkme_banner {
+  display: none !important;
 }
 
-// Responsive adjustments
+/* Decorative element */
+#main_content::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 120px;
+  height: 120px;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="35" fill="none" stroke="%23057676" stroke-width="1" opacity="0.3"/><circle cx="50" cy="50" r="25" fill="none" stroke="%23FF7F50" stroke-width="1" opacity="0.4"/><circle cx="50" cy="50" r="15" fill="none" stroke="%23E4B363" stroke-width="1" opacity="0.5"/><line x1="20" y1="50" x2="80" y2="50" stroke="%231E3D59" stroke-width="1" opacity="0.3"/><line x1="50" y1="20" x2="50" y2="80" stroke="%231E3D59" stroke-width="1" opacity="0.3"/></svg>') no-repeat center;
+  background-size: contain;
+  opacity: 0.15;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Responsive adjustments */
 @media screen and (max-width: 640px) {
+  #header_wrap .inner::before {
+    width: 70px;
+    height: 70px;
+  }
+  
   #project_title {
-    font-size: 2em;
+    font-size: 28px !important;
   }
   
-  #header_wrap .inner:before {
-    width: 80px;
-    height: 80px;
-  }
-  
-  h1 {
-    font-size: 1.8em;
-  }
-  
-  h2 {
-    font-size: 1.4em;
+  h3[id*="a."], 
+  h3[id*="b."], 
+  h3[id*="Hands"] {
+    padding: 12px 15px !important;
+    margin: 20px 0 15px 0 !important;
   }
 }
 
-@media print {
-  #header_wrap {
-    display: none;
-  }
-  
-  #main_content {
-    width: 100%;
-    padding: 0;
+@media screen and (max-width: 480px) {
+  #header_wrap .inner::before {
+    width: 60px;
+    height: 60px;
   }
 }
