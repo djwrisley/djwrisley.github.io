@@ -21,6 +21,17 @@ The workshop is designed for the total beginner who would like:
 
 Drawing inspiration from the location of the ESU in the historical center of Besançon, participants will gather data from within the city and will work with data from local cultural institutions. The workshop will also introduce students to ways in which artificial intelligence and machine learning are opening up new horizons for spatial humanities research.
 
+## Prior to the Workshop
+
+Please complete the suggested preparation prior to the workshop:
+
+Please ensure you have the following prior to the workshop:
+
+* A laptop with administrative privileges for software installation
+* Access to basic GIS software (we will provide guidance on open-source options)
+* Basic familiarity with file management and web browsers
+* An open mind about incorporating spatial thinking into your research
+
 **Duration:** 36 hours total (two weeks of 18 contact hours each)
 
 ### Workshop Goals
@@ -32,16 +43,6 @@ The central goals of the workshop are fourfold:
 3. to practice different ways that we can tell a story by visualizing spatial data, and
 4. to learn ways that we can disseminate and share that data.
 
-## Prior to the Workshop
-
-Please complete the suggested preparation prior to the workshop:
-
-Please ensure you have the following prior to the workshop:
-
-* A laptop with administrative privileges for software installation
-* Access to basic GIS software (we will provide guidance on open-source options)
-* Basic familiarity with file management and web browsers
-* An open mind about incorporating spatial thinking into your research
 
 ### Recommended Background Reading
 
@@ -61,11 +62,43 @@ Critical review of spatial humanities projects and data creation fundamentals
 * Overview of spatial thinking in humanities research and project examples across disciplines
 * Introduction to the field and its applications
 
+#### Pre-reading
+* 
+* 
+
+#### Slides
+* 
+* 
+
+#### Exercises
+* 
+* 
+
+#### Additional References
+* 
+* 
+
 ### 2a. Monday: Critical Review of Projects (Afternoon)
 
 #### Overview
 * Analyzing scope and rhetorical strategies in existing spatial humanities projects
 * Understanding different approaches to spatial storytelling
+
+#### Pre-reading
+* 
+* 
+
+#### Slides
+* 
+* 
+
+#### Exercises
+* 
+* 
+
+#### Additional References
+* 
+* 
 
 ### 3a. Tuesday: Location-Based Research Methods (Morning)
 
@@ -73,17 +106,69 @@ Critical review of spatial humanities projects and data creation fundamentals
 * Incorporating spatial dimensions across disciplines: cinema, art history, anthropology, history, literature
 * Challenges and opportunities in spatial research
 
+#### Pre-reading
+* 
+* 
+
+#### Slides
+* 
+* 
+
+#### Exercises
+* 
+* 
+
+#### Additional References
+* 
+* 
+
 ### 4a. Tuesday: Data Sources and Acquisition (Afternoon)
 
 #### Overview
 * Finding and accessing spatial data relevant to humanities research
 * Understanding different data formats and sources
 
+<<<<<<< Updated upstream
 ### 5a. Semantic annotation with [Recogito](https://recogito.pelagios.org/) and visualizing spatial data with [Kepler](https://kepler.gl/)
+=======
+#### Pre-reading
+* 
+* 
+
+#### Slides
+* 
+* 
+
+#### Exercises
+* 
+* 
+
+#### Additional References
+* 
+* 
+
+### 5a. Wednesday: Gazetteers and Mobile Collection (Morning)
+>>>>>>> Stashed changes
 
 #### Overview
 * Using gazetteers and mobile tools for spatial data collection
 * Hands-on practice with data collection tools
+
+#### Pre-reading
+* 
+* 
+
+#### Slides
+* 
+* 
+
+#### Exercises
+* 
+* 
+
+#### Additional References
+* 
+* 
 
 ### 6a. Wednesday: Data Creation Workflows (Afternoon)
 
@@ -91,11 +176,43 @@ Critical review of spatial humanities projects and data creation fundamentals
 * Creating data formats for spatial humanities projects using off-the-shelf software
 * Best practices for data organization
 
+#### Pre-reading
+* 
+* 
+
+#### Slides
+* 
+* 
+
+#### Exercises
+* 
+* 
+
+#### Additional References
+* 
+* 
+
 ### 7a. Thursday: Basic Querying Techniques (Morning)
 
 #### Overview
 * Learning basic querying for repetitive tasks in spatial dataset building
 * Introduction to data manipulation
+
+#### Pre-reading
+* 
+* 
+
+#### Slides
+* 
+* 
+
+#### Exercises
+* 
+* 
+
+#### Additional References
+* 
+* 
 
 ### Hands on. Thursday: Practical Application (Afternoon)
 
@@ -103,17 +220,65 @@ Critical review of spatial humanities projects and data creation fundamentals
 * Hands-on application of learned techniques and tools
 * Individual and group practice sessions
 
+#### Pre-reading
+* 
+* 
+
+#### Slides
+* 
+* 
+
+#### Exercises
+* 
+* 
+
+#### Additional References
+* 
+* 
+
 ### 8a. Friday: Data Normalization (Morning)
 
 #### Overview
 * Introduction to normalization and data wrangling techniques
 * Preparing data for analysis
 
+#### Pre-reading
+* 
+* 
+
+#### Slides
+* 
+* 
+
+#### Exercises
+* 
+* 
+
+#### Additional References
+* 
+* 
+
 ### 9a. Friday: Manual vs. Automated Analysis (Afternoon)
 
 #### Overview
 * Contrasting manual data creation with automated forms of analysis
 * Understanding when to use different approaches
+
+#### Pre-reading
+* 
+* 
+
+#### Slides
+* 
+* 
+
+#### Exercises
+* 
+* 
+
+#### Additional References
+* 
+* 
 
 ---
 
@@ -129,11 +294,43 @@ Static site development, advanced visualization, and storytelling with spatial d
 * Learning basic skills for hosting web maps on static sites
 * Introduction to web-based mapping platforms
 
+#### Pre-reading
+* 
+* 
+
+#### Slides
+* 
+* 
+
+#### Exercises
+* 
+* 
+
+#### Additional References
+* 
+* 
+
 ### 2b. Monday: Automated Workflows (Afternoon)
 
 #### Overview
 * Experimenting with automated workflows for spatial data processing
 * Efficiency techniques for large datasets
+
+#### Pre-reading
+* 
+* 
+
+#### Slides
+* 
+* 
+
+#### Exercises
+* 
+* 
+
+#### Additional References
+* 
+* 
 
 ### 3b. Tuesday: Advanced Visualization (Morning)
 
@@ -141,11 +338,43 @@ Static site development, advanced visualization, and storytelling with spatial d
 * Complex forms of visualization and spatial storytelling techniques
 * Creating compelling narratives with spatial data
 
+#### Pre-reading
+* 
+* 
+
+#### Slides
+* 
+* 
+
+#### Exercises
+* 
+* 
+
+#### Additional References
+* 
+* 
+
 ### 4b. Tuesday: Open-Source GIS Introduction (Afternoon)
 
 #### Overview
 * Introduction to open-source GIS software and basic operations
 * Hands-on practice with GIS tools
+
+#### Pre-reading
+* 
+* 
+
+#### Slides
+* 
+* 
+
+#### Exercises
+* 
+* 
+
+#### Additional References
+* 
+* 
 
 ### 5b. Wednesday: Georeferencing and Warping (Morning)
 
@@ -153,11 +382,43 @@ Static site development, advanced visualization, and storytelling with spatial d
 * Learning georeferencing and warping techniques for historical maps
 * Working with historical spatial data
 
+#### Pre-reading
+* 
+* 
+
+#### Slides
+* 
+* 
+
+#### Exercises
+* 
+* 
+
+#### Additional References
+* 
+* 
+
 ### 6b. Wednesday: Historical Vector Data (Afternoon)
 
 #### Overview
 * Creating historical vector and polygon data from digitized historical maps
 * Advanced mapping techniques
+
+#### Pre-reading
+* 
+* 
+
+#### Slides
+* 
+* 
+
+#### Exercises
+* 
+* 
+
+#### Additional References
+* 
+* 
 
 ### 7b. Thursday: Specialized Tools and Gazetteers (Morning)
 
@@ -165,11 +426,43 @@ Static site development, advanced visualization, and storytelling with spatial d
 * Exploring discipline-specific gazetteers and mapping packages in R
 * Advanced tools for specific research needs
 
+#### Pre-reading
+* 
+* 
+
+#### Slides
+* 
+* 
+
+#### Exercises
+* 
+* 
+
+#### Additional References
+* 
+* 
+
 ### Hands on. Thursday: Advanced Practical Application (Afternoon)
 
 #### Overview
 * Hands-on application of advanced mapping and visualization techniques
 * Project development and troubleshooting
+
+#### Pre-reading
+* 
+* 
+
+#### Slides
+* 
+* 
+
+#### Exercises
+* 
+* 
+
+#### Additional References
+* 
+* 
 
 ### 8b. Friday: OpenStreetMap and Wikidata (Morning)
 
@@ -177,11 +470,43 @@ Static site development, advanced visualization, and storytelling with spatial d
 * Working with OpenStreetMap, Wikidata, and IIIF for spatial humanities
 * Leveraging open data sources
 
+#### Pre-reading
+* 
+* 
+
+#### Slides
+* 
+* 
+
+#### Exercises
+* 
+* 
+
+#### Additional References
+* 
+* 
+
 ### 9b. Friday: Machine Learning Applications and Project Presentation (Afternoon)
 
 #### Overview
 * Machine classification of features in historical maps and AI applications
 * Final project presentations and strategies for data sharing and dissemination
 * Workshop wrap-up and next steps
+
+#### Pre-reading
+* 
+* 
+
+#### Slides
+* 
+* 
+
+#### Exercises
+* 
+* 
+
+#### Additional References
+* 
+* 
 
 
