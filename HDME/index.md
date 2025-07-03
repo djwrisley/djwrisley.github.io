@@ -24,14 +24,9 @@ Drawing inspiration from the location of the ESU in the historical center of Bes
 
 ## Prior to the Workshop
 
-Please complete the suggested preparation prior to the workshop:
+Please ensure you have a laptop with administrative privileges for software installation.
 
-Please ensure you have the following prior to the workshop:
-
-* A laptop with administrative privileges for software installation
-* Access to basic GIS software (we will provide guidance on open-source options)
-* Basic familiarity with file management and web browsers
-* An open mind about incorporating spatial thinking into your research
+Details for accounts to make and pre-workshop downloads [here](workshop-prep.md)
 
 **Duration:** 36 hours total (two weeks of 18 contact hours each)
 
