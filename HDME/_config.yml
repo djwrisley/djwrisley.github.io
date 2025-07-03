@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
 title: "HDME - Spatial Humanities Workshop"
 description: "European Summer University in Digital Humanities, Besançon 2025"
 logo: /assets/images/LogoESU2025.jpg
@@ -15,6 +15,7 @@ permalink: pretty
 
 # GitHub Pages settings
 plugins:
+  - jekyll-remote-theme
   - jekyll-default-layout
   - jekyll-optional-front-matter
   - jekyll-readme-index

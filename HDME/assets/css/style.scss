@@ -1,11 +1,9 @@
 ---
 ---
 
-@import "minimal";
+/* Custom styling for HDME workshop site using minimal theme */
 
-/* Custom enhancements for better workshop presentation */
-
-/* Logo styling */
+/* Enhanced logo styling */
 header img {
   max-width: 200px;
   border-radius: 8px;
@@ -20,11 +18,6 @@ header p {
 
 header .view {
   margin-top: 20px;
-}
-
-/* Main content improvements */
-section {
-  max-width: none;
 }
 
 /* Typography enhancements */
@@ -85,14 +78,6 @@ strong {
 @media (max-width: 720px) {
   header img {
     max-width: 150px;
-  }
-  
-  header {
-    padding-right: 20px;
-  }
-  
-  section {
-    padding: 20px;
   }
   
   h1 {
