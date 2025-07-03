@@ -1,6 +1,6 @@
 # HDME - Spatial Humanities Workshop
 
-A responsive static website for the Spatial Humanities Workshop at ESU 2025, held in historic Besançon.
+A Jekyll-powered static website for the Spatial Humanities Workshop at ESU 2025, held in historic Besançon.
 
 ## Overview
 
@@ -8,8 +8,9 @@ This workshop introduces participants to digital mapping environments and humani
 
 ## Website Features
 
-- **Responsive Design**: Built with the Cayman theme, optimized for all device sizes
-- **ESU 2025 Branding**: Custom color scheme matching the ESU 2025 logo
+- **Jekyll with Minimal Theme**: Built using GitHub Pages minimal theme
+- **ESU 2025 Branding**: Features the official ESU 2025 logo
+- **Responsive Design**: Optimized for all device sizes
 - **Structured Content**: 
   - Workshop Overview
   - Pre-workshop preparation information
@@ -17,10 +18,20 @@ This workshop introduces participants to digital mapping environments and humani
 
 ## Technical Details
 
-- Pure HTML/CSS static site
-- No JavaScript dependencies
-- Mobile-first responsive design
-- SVG logo for crisp display at all resolutions
+- Jekyll static site generator
+- GitHub Pages minimal theme
+- Custom SCSS styling for enhanced appearance
+- Markdown content with YAML front matter
+- ESU 2025 JPG logo integration
+
+## Local Development
+
+To run this site locally:
+
+1. Install Ruby and Bundler
+2. Run `bundle install` to install dependencies
+3. Run `bundle exec jekyll serve` to start the development server
+4. Visit `http://localhost:4000` to view the site
 
 ## Workshop Structure
 
@@ -34,12 +45,24 @@ This workshop introduces participants to digital mapping environments and humani
 - Advanced visualization and storytelling
 - GIS software and historical mapping
 
-## Getting Started
+## File Structure
 
-Simply open `index.html` in a web browser to view the site. The site is fully self-contained and requires no server setup.
+```
+├── _config.yml          # Jekyll configuration
+├── _layouts/
+│   └── default.html     # Custom layout template
+├── assets/
+│   ├── css/
+│   │   └── style.scss   # Custom styling
+│   └── images/
+│       └── LogoESU2025.jpg
+├── Gemfile              # Ruby dependencies
+├── index.md             # Main content page
+└── README.md            # This file
+```
 
 ## Credits
 
-- **Theme**: Based on the Cayman theme by GitHub Pages
-- **Color Scheme**: Adapted from ESU 2025 branding
+- **Theme**: GitHub Pages Minimal Theme
+- **Logo**: ESU 2025 official branding
 - **Content**: Workshop curriculum for ESU 2025 conference
